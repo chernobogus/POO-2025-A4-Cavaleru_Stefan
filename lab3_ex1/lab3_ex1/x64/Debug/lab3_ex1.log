@@ -1,0 +1,11 @@
+﻿  Main.cpp
+  Math.cpp
+  Generating Code...
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab3_ex1\Math.cpp(10,50): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab3_ex1\Math.cpp(11,61): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab3_ex1\Math.cpp(14,49): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab3_ex1\Math.cpp(15,61): warning C4244: 'return': conversion from 'double' to 'int', possible loss of data
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab3_ex1\Math.cpp(31,27): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab3_ex1\Math.cpp(35,25): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab3_ex1\Math.cpp(35,44): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  lab3_ex1.vcxproj -> C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab3_ex1\x64\Debug\lab3_ex1.exe
