@@ -15,21 +15,19 @@ void Number:: Print() {
 	cout << "numarul este: " << number << " in baza " << Base;
 }
 
-int Number::GetBase10Value(){  // Funcția convertește numărul din baza curentă în baza 10
+int Number::GetBase10Value(){
 	int rez = 0, putere = 1;
 	int i;
 
 	for (i = numlen - 1; i >= 0; i--)
 	{
-		if (number[i] >= '0' && number[i] <= '9') { // Dacă numărul este într-o bază mai mică decât 10
-			rez = rez + (number[i] - '0') * putere; // Adunăm la rezultat valoarea cifrei înmulțită cu puterea bazei
-
+		if (number[i] >= '0' && number[i] <= '9') {
+			rez = rez + (number[i] - '0') * putere; 
 		}
-		else // Dacă numărul este într-o bază mai mare decât 10
-		{
-			rez = rez + (number[i] - 'A' + 10) * putere; // A = 11, B = 12, C = 13, D = 14, E = 15, F = 16 -> pentru baza 16 :)
+		else {
+			rez = rez + (number[i] - 'A' + 10) * putere; // A = 11, B = 12, C = 13, D = 14, E = 15, F = 16 
 		}
-		putere = putere * Base; // Creștem puterea bazei (ex: 2^0, 2^1, 2^2, ...)
+		putere = putere * Base; // creste puterea bazei (2^0, 2^1, 2^2, ...)
 	}
 	return rez;
 }
