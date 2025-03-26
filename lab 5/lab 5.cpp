@@ -26,7 +26,7 @@ cout << endl;
 numar3.Print();
 cout << endl;
 
-Number numar4("100", 2);
+Number numar4("1001", 2);
 Number numar5("10", 2);
 
 Number diferenta = numar4 - numar5;
@@ -46,6 +46,8 @@ if (numar4 > numar5)
 else 
     cout << numar5.GetBase10Value() << " este mai mare decat " << numar4.GetBase10Value() << endl;
 
-    
+cout << "copiem valoarea lui n4: " ; numar4.Print(); cout<< " in n5: " ; numar5.Print(); cout << endl;
+numar5+=numar4;
+cout << "dupa copiere: "; numar5.Print();
     return 0;
 }

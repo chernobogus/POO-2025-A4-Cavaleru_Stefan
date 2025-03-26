@@ -13,6 +13,12 @@ public:
 
    // add operators and copy/move constructor
 
+   Number(Number &num);  //constructor pentru copy
+   Number(Number&& num);   //constructor pt move
+   Number& operator=(Number&& num);  //operator move
+   Number& operator+=(Number& num);  //operator copy
+	
+   //operatori:
    bool operator < (Number& num); 
    bool operator > (Number& num);
    bool operator <= (Number& num);
@@ -20,8 +26,8 @@ public:
    bool operator == (Number& num);
    friend Number operator+ ( Number& num1, Number& num2);
    friend Number operator- ( Number& num1, Number& num2);
-   Number& operator--();
-   Number operator--(int);
+   Number& operator--();  //elim prima cif
+   Number operator--(int);  //elim ultima cif
 
    int GetBase10Value(); 
 

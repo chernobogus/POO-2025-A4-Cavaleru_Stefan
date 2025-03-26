@@ -1,2 +1,8 @@
-﻿  lab 5.cpp
+﻿  Number.cpp
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab 5\Number.cpp(11,15): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab 5\Number.cpp(41,7): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab 5\Number.cpp(121,7): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab 5\Number.cpp(136,7): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab 5\Number.cpp(149,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab 5\Number.cpp(155,20): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
   lab 5.vcxproj -> C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab 5\x64\Debug\lab 5.exe

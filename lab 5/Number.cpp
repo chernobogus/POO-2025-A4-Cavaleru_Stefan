@@ -27,7 +27,7 @@ int Number::GetBase10Value(){
 		else {
 			rez = rez + (number[i] - 'A' + 10) * putere; // A = 11, B = 12, C = 13, D = 14, E = 15, F = 16 
 		}
-		putere = putere * Base; // creste puterea bazei (2^0, 2^1, 2^2, ...)
+		putere = putere * Base; // creste puterea bazei (ex binar 2^0, 2^1, 2^2, ...) 
 	}
 	return rez;
 }
@@ -56,12 +56,43 @@ int Number::GetDigitsCount() {
 
 int Number::GetBase() { return Base;}
 
-Number::~Number() { 
+Number::~Number() {   //deconstructor
 for(int i=0;i<GetDigitsCount();i++)
 number[i]=NULL;
 }
 
+Number::Number(Number& num){
+	strcpy(number, num.number);
+	Base = num.Base;
+	numlen = num.numlen;
+}
+
+Number::Number(Number&& num){
+	strcpy(number, num.number);
+	Base = num.Base;
+	numlen = num.numlen;
+}
+
+
 //--------------------operatori--------------------
+
+Number& Number::operator=(Number&& num) {
+	for (int i = 0;i < GetDigitsCount();i++)
+		number[i] = NULL;
+	strcpy(number, num.number);
+	Base = num.Base;
+	numlen = num.numlen;
+	num.Base = 0;
+	num.numlen = 0;
+	return *this;
+}
+
+Number& Number::operator+=(Number& num) {
+	strcpy(number, num.number);
+	Base = num.Base;
+	numlen = num.numlen;
+	return *this;			//fara asta da eroare must return a value
+}
 
 bool Number::operator < (Number& num){
 	if(GetBase10Value()<num.GetBase10Value()) return 1;
@@ -87,8 +118,8 @@ Number operator+ ( Number& num1,  Number& num2) {
 	int maxbase=max(num1.GetBase(), num2.GetBase());
 	int sum= num1.GetBase10Value() + num2.GetBase10Value();
 	char result[100];
-	int i=log10(sum)+2;
-	result[i] = '\0'; i--;
+	int i=log10(sum)+2;   //lungimea + 1 ca sa faca loc de null
+	result[i] = '\0'; i--;   //termina sirul cu null
 	for(;i>=0;i--) {
         int rest = sum % maxbase;
         sum = sum / maxbase;
@@ -116,7 +147,7 @@ Number operator- ( Number& num1,  Number& num2) {
 Number& Number::operator--(){
     strcpy(number, number + 1);
     numlen = strlen(number);
-    return *this;
+    return *this;				// *this returneaza adresa obiectului curent
 }
 
 Number Number::operator--(int){
