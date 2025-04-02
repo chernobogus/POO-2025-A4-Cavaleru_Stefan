@@ -1,5 +1,6 @@
 #include "Circuit.h"
 #include "Weather.h"
+
 #include <iostream>
 using namespace std;
 
@@ -13,17 +14,24 @@ int nr=0;   */
 	vreme=Sunny;
 	}
 	void Circuit::SetLength(unsigned int lung){
-	this->lungime = lung;
+	lungime = lung;
 	}
 	void Circuit::SetWeather(Weather weather){
-	this->vreme=weather;
+	vreme=weather;
 	}
 	void Circuit::AddCar(Car* c){
 	cars[nr++]=c;
 	}
+
+	float Circuit::simulaterace(int i, unsigned int lungime, Weather vreme) {
+	int distanta=cars[i]->getrezervor()/cars[i]->getconsum()*100;
+	if(distanta<lungime) return -1;
+	return 1.0*lungime/cars[i]->getviteza(vreme)*60;
+	}
+
 	void Circuit::Race(){
 		for (int i = 0;i < nr;i++) {
-			finishtime[i]=cars[i]->simulaterace(lungime,vreme);
+			finishtime[i]=simulaterace(i,lungime,vreme);
 		}
 	}
 	void Circuit::ShowFinalRanks(){

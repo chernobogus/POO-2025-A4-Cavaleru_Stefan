@@ -15,6 +15,8 @@ Car* cars[100] = {};
 float finishtime[100] = {};
 int nr=0;
 
+float simulaterace(int i,unsigned int lungime,Weather vreme);
+
 //public:
 	Circuit();
 	void SetLength(unsigned int lung);

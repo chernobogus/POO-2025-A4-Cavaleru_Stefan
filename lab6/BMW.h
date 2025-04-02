@@ -4,7 +4,8 @@
 class BMW : public Car {
 	public:
 	BMW();
-	float simulaterace(unsigned int lungime, Weather vreme);
-	char* getname();
+int getviteza(Weather vreme)override;
+	int getconsum()override;
+	int getrezervor()override;	char* getname();
 
 };

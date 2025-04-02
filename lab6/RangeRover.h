@@ -4,7 +4,8 @@
 class RangeRover : public Car {
 	public:
 	RangeRover();
-	float simulaterace(unsigned int lungime, Weather vreme);
-	char* getname();
+int getviteza(Weather vreme)override;
+	int getconsum()override;
+	int getrezervor()override;	char* getname();
 
 };

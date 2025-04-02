@@ -12,11 +12,9 @@ Volvo::Volvo() {
 	viteza[Snow]=85;
 	strcpy(nume,"Volvo");
 	}
-float Volvo::simulaterace(unsigned int lungime, Weather vreme) {
-	int distanta=rezervor/consum*100;
-	if(distanta<lungime) return -1;
-	return 1.0*lungime/viteza[vreme]*60;
-	}
+int Volvo::getviteza(Weather vreme) {return viteza[vreme]; }
+	int Volvo::getconsum(){return consum;}
+	int Volvo::getrezervor() {return rezervor;}
 char* Volvo::getname() {
 	return nume;
 	}

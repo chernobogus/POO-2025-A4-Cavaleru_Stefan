@@ -12,11 +12,9 @@ RangeRover::RangeRover() {
 	viteza[Snow]=80;
 	strcpy(nume,"RangeRover");
 	}
-float RangeRover::simulaterace(unsigned int lungime, Weather vreme) {
-	int distanta=rezervor/consum*100;
-	if(distanta<lungime) return -1;
-	return 1.0*lungime/viteza[vreme]*60;
-	}
+int RangeRover::getviteza(Weather vreme) {return viteza[vreme]; }
+	int RangeRover::getconsum(){return consum;}
+	int RangeRover::getrezervor() {return rezervor;}
 char* RangeRover::getname() {
 	return nume;
 	}

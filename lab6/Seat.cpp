@@ -12,11 +12,9 @@ Seat::Seat() {
 	viteza[Snow]=60;
 	strcpy(nume,"Seat");
 	}
-float Seat::simulaterace(unsigned int lungime, Weather vreme) {
-	int distanta=rezervor/consum*100;
-	if(distanta<lungime) return -1;
-	return 1.0*lungime/viteza[vreme]*60;
-	}
+int Seat::getviteza(Weather vreme) {return viteza[vreme]; }
+	int Seat::getconsum(){return consum;}
+	int Seat::getrezervor() {return rezervor;}
 char* Seat::getname() {
 	return nume;
 	}

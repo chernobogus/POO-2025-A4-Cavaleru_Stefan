@@ -1,2 +1,7 @@
 ﻿  Circuit.cpp
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab6\Circuit.cpp(28,13): warning C4018: '<': signed/unsigned mismatch
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab6\Circuit.cpp(29,46): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  main.cpp
+  Volvo.cpp
+  Generating Code...
   lab6.vcxproj -> C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab6\x64\Debug\lab6.exe

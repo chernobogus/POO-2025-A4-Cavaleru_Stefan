@@ -12,11 +12,9 @@ Fiat::Fiat() {
 	viteza[Snow]=70;
 	strcpy(nume,"Fiat");
 	}
-float Fiat::simulaterace(unsigned int lungime, Weather vreme) {
-	int distanta=rezervor/consum*100;
-	if(distanta<lungime) return -1;
-	return 1.0*lungime/viteza[vreme]*60;
-	}
+int Fiat::getviteza(Weather vreme) {return viteza[vreme]; }
+	int Fiat::getconsum(){return consum;}
+	int Fiat::getrezervor() {return rezervor;}
 char* Fiat::getname() {
 	return nume;
 	}
