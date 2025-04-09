@@ -1,0 +1,47 @@
+﻿  Main.cpp
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Tree.h(43,22): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Main.cpp')
+      C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Tree.h(43,22):
+      the template instantiation context (the oldest one first) is
+          C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Main.cpp(23,16):
+          see reference to class template instantiation 'Tree<int>' being compiled
+          C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Tree.h(34,8):
+          while compiling class template member function 'void Tree<int>::printTree(Node<T> *,const std::string &,bool)'
+          with
+          [
+              T=int
+          ]
+              C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Main.cpp(40,20):
+              see the first reference to 'Tree<int>::printTree' in 'main'
+  
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Tree.h(108,22): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Main.cpp')
+      C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Tree.h(108,22):
+      the template instantiation context (the oldest one first) is
+          C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Tree.h(101,12):
+          while compiling class template member function 'Node<T> *Tree<T>::find_node_rec(Node<T> *,T)'
+          with
+          [
+              T=int
+          ]
+              C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Tree.h(116,3):
+              see the first reference to 'Tree<int>::find_node_rec' in 'Tree<int>::find_node'
+              C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Main.cpp(28,19):
+              see the first reference to 'Tree<int>::find_node' in 'main'
+  
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Tree.h(86,22): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'Main.cpp')
+      C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Tree.h(86,22):
+      the template instantiation context (the oldest one first) is
+          C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Tree.h(81,5):
+          while compiling class template member function 'T Tree<T>::find_rec(Node<T> *,T)'
+          with
+          [
+              T=int
+          ]
+              C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Tree.h(97,4):
+              see the first reference to 'Tree<int>::find_rec' in 'Tree<int>::find'
+              C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\Main.cpp(38,15):
+              see the first reference to 'Tree<int>::find' in 'main'
+  
+  lab7.vcxproj -> C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab7\x64\Debug\lab7.exe
