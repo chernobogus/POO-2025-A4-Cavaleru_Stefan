@@ -1,0 +1,55 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\it projects\\poo 2025\\POO-2025-A4-Cavaleru_Stefan\\lab8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EE59FBDC-0A77-4896-8A46-937D4992F064}|lab8.vcxproj|C:\\it projects\\poo 2025\\POO-2025-A4-Cavaleru_Stefan\\lab8\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EE59FBDC-0A77-4896-8A46-937D4992F064}|lab8.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EE59FBDC-0A77-4896-8A46-937D4992F064}|lab8.vcxproj|C:\\it projects\\poo 2025\\POO-2025-A4-Cavaleru_Stefan\\lab8\\file.in||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{EE59FBDC-0A77-4896-8A46-937D4992F064}|lab8.vcxproj|solutionrelative:file.in||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\it projects\\poo 2025\\POO-2025-A4-Cavaleru_Stefan\\lab8\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\it projects\\poo 2025\\POO-2025-A4-Cavaleru_Stefan\\lab8\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAADQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-29T09:16:14.037Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "file.in",
+              "DocumentMoniker": "C:\\it projects\\poo 2025\\POO-2025-A4-Cavaleru_Stefan\\lab8\\file.in",
+              "RelativeDocumentMoniker": "file.in",
+              "ToolTip": "C:\\it projects\\poo 2025\\POO-2025-A4-Cavaleru_Stefan\\lab8\\file.in",
+              "RelativeToolTip": "file.in",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-04-29T09:16:23.219Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab8\main.cpp(38,9): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab8\main.cpp(45,26): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  lab8.vcxproj -> C:\it projects\poo 2025\POO-2025-A4-Cavaleru_Stefan\lab8\x64\Debug\lab8.exe
